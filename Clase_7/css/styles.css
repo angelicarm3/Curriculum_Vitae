@@ -1,21 +1,103 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    position: absolute;
     width: 1440px;
-}
-    
-header{
+}    
+header {
     background-color: #E6E6E6;
-    height: 188.19px;
+    background-image: url(../img/logo_batman.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 188px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 1440px;
 }
 h1 {
     background-color: #C4C4C4;
+    box-sizing: border-box;
     color: #005677;
     font-size: 35px;
-    font-style: normal;
     font-weight: 700;
     height: 60px;
+    left: 0px;
+    letter-spacing: 4px;
     margin: 0;
+    padding: 13px;
+    position: absolute;
     text-align: center;
-    vertical-align: middle;
+    top: 188px;
+    width: 1440px;
+}
+section {    
+    left: 0;
+    position: absolute;
+    width: 1440px;
+}
+.subtitle {
+    background-color: #C4C4C4;    
+    box-sizing: border-box;
+    color: #005677;
+    font-weight: 700;
+    font-size: 20px;
+    height: 30px;
+    margin: 0;
+    letter-spacing: 2px;
+    padding: 5px 12px;
+    
+}
+.personal_info {
+    top: 376px;    
+}
+.academic_info {
+    top: 518px;
+}
+article {
+    position: relative;
+}
+.date {
+    padding: 19px;
+}
+.no_style_list {
+    margin: 0;
+    list-style: none;
+    padding-inline-start: 110px;
+    position: absolute;
+    top: 19px;
+}
+.job_info {
+    top: 673px;
+}
+footer {
+    background-color: #005677;
+    box-sizing: border-box;    
+    height: 37px;
+    left: 0;
+    padding: 8px;
+    position: absolute;
+    top: 987px;
+    width: 1440px;
+}
+.phone {
+    color: #FFFFFF;    
+    font-weight: 700;
+    font-size: 20px;
+    left: 601px;
+    position: absolute;
+}
+.icon_ig {
+    background-image: url(../img/ico_instagram.png);
+    height: 20px;
+    left: 772px;
+    position: absolute;
+    top: 9px;
+    width: 20px;
+}
+.icon_linkedin {
+    background-image: url(../img/ico_linkedin.png);
+    height: 20px;
+    left: 818px;
+    position: absolute;
+    top: 9px;
+    width: 20px;
 }

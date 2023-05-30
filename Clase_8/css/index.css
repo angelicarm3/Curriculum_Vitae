@@ -1,0 +1,132 @@
+body {
+    font-family: 'Pangolin', cursive;
+    width: 1440px;
+}    
+header {
+    background-color: #EFEEF7;
+    background-image: url(../img/background.jpg);
+    background-position: center;    
+    height: 188px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 1440px;
+}
+.photo_profile {
+    border-radius: 95px;
+    height: 180px;
+    left: 650px;
+    position: absolute;
+}
+h1 {
+    background-color: #DDD9F2;
+    box-sizing: border-box;
+    color: #762984;
+    font-size: 35px;
+    font-weight: 700;
+    height: 60px;
+    left: 0px;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 13px;
+    position: absolute;
+    text-align: center;
+    top: 188px;
+    width: 1440px;
+}
+section {    
+    left: 0;
+    position: absolute;
+    width: 1440px;
+}
+.subtitle {
+    background-color: #DDD9F2;    
+    box-sizing: border-box;
+    color: #762984;
+    font-weight: 700;
+    font-size: 20px;
+    height: 30px;
+    margin: 0;
+    letter-spacing: 2px;
+    padding: 5px 12px;    
+}
+.personal_info {
+    top: 376px;    
+}
+.academic_info {
+    top: 518px;
+}
+article {
+    position: relative;
+}
+.date {
+    padding: 19px;
+}
+.no_style_list {
+    margin: 0;
+    list-style: none;
+    padding-inline-start: 120px;
+    position: absolute;
+    top: 19px;
+}
+.job_info {
+    top: 673px;
+}
+.about_me {
+    background-color: #DDD9F2;
+    border-radius: 15px;
+    color: #762984;
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+    height: 40px;
+    left: 1200px;
+    position: absolute;
+    top: 250px;
+    width: 150px;
+}
+footer {
+    background-color: #762984;
+    box-sizing: border-box;    
+    height: 37px;
+    left: 0;
+    padding: 8px;
+    position: absolute;
+    top: 987px;
+    width: 1440px;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+.phone {
+    color: #FFFFFF;    
+    font-weight: 700;
+    font-size: 20px;
+    left: 580px;
+    position: absolute;
+}
+.icon_ig {
+    background-image: url(../img/ico_instagram.png);
+    height: 20px;
+    left: 750px;
+    position: absolute;
+    top: 9px;
+    width: 20px;
+}
+.icon_linkedin {
+    background-image: url(../img/ico_linkedin.png);
+    height: 20px;
+    left: 790px;
+    position: absolute;
+    top: 9px;
+    width: 20px;
+}
+.icon_github {
+    background-image: url(../img/ico_github.png);
+    height: 20px;
+    left: 830px;
+    position: absolute;
+    top: 9px;
+    width: 20px;
+    
+}
